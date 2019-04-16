@@ -57,7 +57,7 @@ pipeline {
             when {
                 branch 'master'
             }
-            nvironment {
+            environment {
                 CANARY_REPLICAS = 0
             }
             steps {
